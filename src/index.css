@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    position: relative;
+    background: #1d1d1d;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+}
+
+
+
+.highlight {
+    color: #ff3559;
+}
+
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    background: #ff3559;
+    color: #fff;
+    text-transform: capitalize;
+    border: none;
+    transition: .5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background: #ff3559;
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+    opacity: 0.7;
+}
+
+.seperator {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background: linear-gradient(to right, red, blue);
+    background-size: 200% 100%;
+    animation: colorChange 2s linear infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        background-position: left;
+    }
+
+    50% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
+}
+
+@media (max-width: 720px) {
+
+    .hero-heading {
+        font-size: 1.5rem;
+    }
+
+    .heading {
+        font-size: 2.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 776px) {
+    .social-media {
+        display: none;
+    }
+}
+
+.project,
+.contact {
+    position: relative;
+    padding: 50px 10vw;
+
+}

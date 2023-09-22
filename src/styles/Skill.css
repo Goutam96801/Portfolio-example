@@ -1,0 +1,84 @@
+.skill-container {
+    width: 100%;
+    position: relative;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.skill-card {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0 20px 20px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #464646;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transition: .5s;
+}
+
+.skill {
+    font-size: 2rem;
+    color: #464646;
+    line-height: 200px;
+    transition: .5s;
+}
+
+.skill-card:hover .skill {
+    transform: scale(1.1);
+}
+
+.skill-card:hover .skill {
+    color: #fff;
+
+}
+
+.skill-card.large {
+    flex-basis: calc(33.33% - 40px);
+}
+
+.card1:hover {
+    background-image: linear-gradient(45deg, #f06529, #d4140d);
+}
+
+.card2:hover {
+    background-image: linear-gradient(45deg, #28A4D9, #3535ad);
+}
+
+.card3:hover {
+    background-image: linear-gradient(45deg, #e1c916, #7b6e09);
+}
+
+.card4:hover {
+    background-image: linear-gradient(225deg, #1b790c, rgb(55, 44, 41));
+}
+
+.card5:hover {
+    background-image: linear-gradient(45deg, #5ED4F4, #052845);
+}
+
+.card6:hover {
+    background-image: linear-gradient(45deg, #68A063, #074502);
+}
+
+.card7:hover {
+    background-image: linear-gradient(45deg, #ccc504, #333);
+}
+
+.card8:hover {
+    background-image: linear-gradient(45deg, #063a7a, #c60404);
+}
+
+.card9:hover {
+    background-image: linear-gradient(135deg, #60a1e3, #003467);
+}
+
+.card10:hover {
+    background-image: linear-gradient(45deg, #FFD43B, #3776AB);
+}
